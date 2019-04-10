@@ -9,3 +9,11 @@ and tensorflow documentation for more information.
 [1]: https://github.com/Kamnitsask/deepmedic
 [2]: https://developer.nvidia.com/cuda-toolkit
 [3]: https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
+
+
+## Usage
+
+    git clone https://github.com/andrewlkho/docker-deepmedic.git
+    cd docker-deepmedic
+    docker build -t deepmedic .
+    docker run -it --rm deepmedic
