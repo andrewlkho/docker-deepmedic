@@ -20,6 +20,5 @@ and tensorflow documentation for more information.
 
 Alternatively, on a system without git:
 
-    docker build -t deepmedic 
-    https://raw.githubusercontent.com/andrewlkho/docker-deepmedic/master/Dockerfile
+    docker build -t deepmedic https://raw.githubusercontent.com/andrewlkho/docker-deepmedic/master/Dockerfile
     docker run -it --rm deepemdic
